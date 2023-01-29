@@ -1,11 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
+import HeaderFooter from './components/HeaderFooter';
 
 function App() {
   return (
     <div className="App">
-     <h1>Frontend deployed to AWS</h1>
-     <h1>Learning how to deploy to AWS</h1>
+    <HeaderFooter title="header" />
+    <HeaderFooter title="footer" />
     </div>
   );
 }
